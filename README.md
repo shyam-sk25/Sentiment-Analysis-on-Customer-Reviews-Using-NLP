@@ -47,3 +47,11 @@ source venv/bin/activate  # On Linux/macOS
 
 # 3. Install dependencies
 pip install -r requirements.txt
+
+### 2. Data Source and Setup (CRITICAL STEP)
+
+The project uses the **Amazon Fine Food Reviews** dataset. The original data file (`Reviews.csv`) is over 350MB and **exceeds GitHub's file size limit.** Therefore, the data file is not included in this repository.
+
+1.  **Download Data:** You must manually download the file from its public source.
+    * **Source Link:** [Kaggle: Amazon Fine Food Reviews Dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+2.  **Placement:** After downloading, place the **`Reviews.csv`** file in the **root directory** of this project (next to `Sentiment Analysis.ipynb`) before running the notebook.
